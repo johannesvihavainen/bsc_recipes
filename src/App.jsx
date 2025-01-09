@@ -21,26 +21,32 @@ function App() {
       {/* Navbar */}
       <Navbar changeSection={changeSection} />
 
+      <div class="search-bar">
+        <p>Need to search for something specific?</p>
+        <input className="search-box" type="text" id="myInput" placeholder="Search for what you need.." />
+      </div>
+
       {/* Conditional rendering for sections */}
       {activeSection === 'home' && (
         <section id='home'>
-          <div class="recipes-container">
-            <div class="coffee-container">
-              <div class="item-wrapper">
-                <p class="drink-title">espresso</p>
-                <p>Small(4oz) = 1 shot </p>
-                <p>Double(4oz) = 2 shots</p>
+          <div className="recipes-container">
+            <div className="coffee-container">
+              <div className="item-wrapper">
+                <p className="drink-title">espresso</p>
+                <p>Single: 1 shot of espresso </p>
+                <p>Double: 2 shots of espresso</p>
+                <p className='recipe-method'>Pour into an espresso cup.</p>
               </div>
 
-              <div class="item-wrapper">
-                <p class="drink-title">espresso con panna</p>
+              <div className="item-wrapper">
+                <p className="drink-title">espresso con panna</p>
                 <p>Small(4oz) = 1 shot </p>
                 <p>Double(4oz) = 2 shots</p>
                 <p>Add whipped cream</p>
               </div>
 
-              <div class="item-wrapper">
-                <p class="drink-title">americano</p>
+              <div className="item-wrapper">
+                <p className="drink-title">americano</p>
                 <p>fill cup with hot water</p>
                 <p>Small(8oz) = 1 shot</p>
                 <p>Regular(12oz) = 2 shots</p>
@@ -49,8 +55,8 @@ function App() {
                 <p>add milk if ordered</p>
               </div>
 
-              <div class="item-wrapper">
-                <p class="drink-title">latte</p>
+              <div className="item-wrapper">
+                <p className="drink-title">latte</p>
                 <p>Small(8oz) = 1 shot</p>
                 <p>Regular(12oz) = 2 shots</p>
                 <p>Large(16oz) = 3 shots</p>
@@ -58,8 +64,8 @@ function App() {
                 <p>add milk</p>
               </div>
 
-              <div class="item-wrapper">
-                <p class="drink-title">cappucino</p>
+              <div className="item-wrapper">
+                <p className="drink-title">cappucino</p>
                 <p>Small(8oz) = 1 shot</p>
                 <p>Regular(12oz) = 2 shots</p>
                 <p>Large(16oz) = 3 shots</p>
@@ -67,20 +73,20 @@ function App() {
                 <p>add milk</p>
               </div>
 
-              <div class="item-wrapper">
-                <p class="drink-title">flat white</p>
+              <div className="item-wrapper">
+                <p className="drink-title">flat white</p>
                 <p>Small(8oz) = 2 shots</p>
                 <p>add milk</p>
               </div>
 
-              <div class="item-wrapper">
-                <p class="drink-title">cortado</p>
+              <div className="item-wrapper">
+                <p className="drink-title">cortado</p>
                 <p>Small(8oz) = 2 shots</p>
                 <p>pour milk until cup is 3/4 full</p>
               </div>
 
-              <div class="item-wrapper">
-                <p class="drink-title">mocha</p>
+              <div className="item-wrapper">
+                <p className="drink-title">mocha</p>
                 <p>Small(8oz) = 1 pump of chocolate syrup</p>
                 <p>Regular(12oz) = 2 pumps of chocolate syrup</p>
                 <p>Large(16oz) = 3 pumps of chocolate syrup</p>
@@ -92,12 +98,12 @@ function App() {
                 <p>add milk</p>
               </div>
 
-              <div class="item-wrapper">
-                <p class="drink-title">spanish latte</p>
-                <p>Small(8oz) = 25g of condendsed milk</p>
-                <p>Regular(12oz) = 45g of condendsed milk</p>
-                <p>Large(16oz) = 65g of condendsed milk</p>
-                <p>Extra-Large(20pz) = 85g of condendsed milk</p>
+              <div className="item-wrapper">
+                <p className="drink-title">spanish latte</p>
+                <p>Small(8oz) = 25g of condensed milk</p>
+                <p>Regular(12oz) = 45g of condensed milk</p>
+                <p>Large(16oz) = 65g of condensed milk</p>
+                <p>Extra-Large(20pz) = 85g of condensed milk</p>
                 <p>Small(8oz) = 1 shot</p>
                 <p>Regular(12oz) = 2 shots</p>
                 <p>Large(16oz) = 3 shots</p>
@@ -105,8 +111,8 @@ function App() {
                 <p>add milk</p>
               </div>
 
-              <div class="item-wrapper">
-                <p class="drink-title">pistachio latte /// using blue volcano</p>
+              <div className="item-wrapper">
+                <p className="drink-title">pistachio latte /// using blue volcano</p>
                 <p>Small(8oz) = 1 pump of pistachio syrup</p>
                 <p>Regular(12oz) = 2 pumps of pistachio syrup</p>
                 <p>Large(16oz) = 3 pumps of pistachio syrup</p>
@@ -119,8 +125,8 @@ function App() {
                 <p>add cream and sprinkle chopped pistachios</p>
               </div>
 
-              <div class="item-wrapper">
-                <p class="drink-title">honey cardamom oat latte</p>
+              <div className="item-wrapper">
+                <p className="drink-title">honey cardamom oat latte</p>
                 <p>Regular(12oz) = 2 pumps of honey</p>
                 <p>Large(16oz) = 3 pumps of honey</p>
                 <p>Regular(12oz) = 2 shots</p>
@@ -130,8 +136,8 @@ function App() {
                 <p>add oat milk</p>
               </div>
 
-              <div class="item-wrapper">
-                <p class="drink-title">coconut latte</p>
+              <div className="item-wrapper">
+                <p className="drink-title">coconut latte</p>
                 <p>Small(8oz) = 1 pump of coconut syrup</p>
                 <p>Regular(12oz) = 2 pumps of coconut syrup</p>
                 <p>Large(16oz) = 3 pumps of coconut syrup</p>
@@ -144,8 +150,8 @@ function App() {
                 <p>add cream and a sprinkle of coconut shavings</p>
               </div>
 
-              <div class="item-wrapper">
-                <p class="drink-title">coco / choco latte</p>
+              <div className="item-wrapper">
+                <p className="drink-title">coco / choco latte</p>
                 <p>Small(8oz) = 1 pump of coconut syrup</p>
                 <p>Regular(12oz) = 1 pump of coconut syrup</p>
                 <p>Large(16oz) = 1 pump of coconut syrup</p>
@@ -162,8 +168,8 @@ function App() {
                 <p>add cream and chocolate sauce, then coconut shavings</p>
               </div>
 
-              <div class="item-wrapper">
-                <p class="drink-title">mint-mocha latte</p>
+              <div className="item-wrapper">
+                <p className="drink-title">mint-mocha latte</p>
                 <p>Small(8oz) = 1 pump of peppermint syrup</p>
                 <p>Regular(12oz) = 1 pump of peppermint syrup</p>
                 <p>Large(16oz) = 1 pump of peppermint syrup</p>
@@ -180,8 +186,8 @@ function App() {
                 <p>add cream and chocolate sauce in a zig-zag pattern</p>
               </div>
 
-              <div class="item-wrapper">
-                <p class="drink-title">caramel-mocha latte</p>
+              <div className="item-wrapper">
+                <p className="drink-title">caramel-mocha latte</p>
                 <p>Small(8oz) = 1 pump of caramel syrup</p>
                 <p>Regular(12oz) = 1 pump of caramel syrup</p>
                 <p>Large(16oz) = 1 pump of caramel syrup</p>
@@ -198,12 +204,11 @@ function App() {
                 <p>add cream and chocolate & caramel sauce in a zig-zag pattern</p>
               </div>
 
-              <div class="item-wrapper">
-                <p class="drink-title">filter brew</p>
+              <div className="item-wrapper">
+                <p className="drink-title">filter brew</p>
                 <p>fill cup with filter coffee</p>
                 <p>if ordered, add milk</p>
               </div>
-
             </div>
 
             <div class="coffeeless-drinks-container">
