@@ -34,12 +34,11 @@ header h1 {
 
 .navbar ul li {
   background-color: #414042;
-  text-wrap: nowrap;
-  padding: 10px;
+  padding: 15px;
   color: #E9DFB8;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 0.8rem;
+  font-size:  1rem;
   height: 40px;
 }
 
@@ -51,25 +50,31 @@ header h1 {
   grid-area: 1 / 2 / 2 / 3;
 }
 
-.iced-coffee {
+.hot-non-coffee {
   grid-area: 1 / 3 / 2 / 4;
 }
 
-.iced-non-coffee {
+.iced-coffee {
   grid-area: 2 / 1 / 3 / 2;
 }
 
-.frappes {
+.iced-non-coffee {
   grid-area: 2 / 2 / 3 / 3;
 }
 
-.waffles {
+.frappes {
   grid-area: 2 / 3 / 3 / 4;
 }
 
-.prepping-guide {
-  grid-area: 3 / 1 / 4 / 4;
+.waffles {
+  grid-area: 3 / 1 / 4 / 3;
 }
+
+.prepping-guide {
+  grid-area: 3 / 3 / 4 / 4;
+}
+
+
 
 .search-bar {
   margin: 0;
@@ -82,10 +87,12 @@ header h1 {
   border: none;
   box-sizing: border-box;
   padding: 5px;
+  background-color: #FFF;
 }
 
 .search-bar p {
   font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .recipes-container {
@@ -123,6 +130,7 @@ header h1 {
   text-transform: uppercase;
   background-color: #E9DFB8;
   color: #213547;
+  width: 100%;
 }
 
 .ingredients-title,
@@ -147,8 +155,8 @@ header h1 {
   height: 100px;
 }
 
-.wrapper-1,
+/* .wrapper-1,
 .wrapper-2 {
   display: flex;
   gap: 50px;
-}
+} */
