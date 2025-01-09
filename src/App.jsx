@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import './App.css'
 import Navbar from './Navbar';
 import SearchFunctionality from './SearchFunctionality';
+import bscLogo from './assets/bsc_logo.png';  // Import the image
+import coverPhoto from './assets/black_sheep_cover.jpg'; // Import the cover photo
+
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -15,12 +18,12 @@ function App() {
 
       {/* Header for the website title */}
       <header>
-        <img className='bsc-logo' src="dist/bsc_logo.png" alt="" />
+        <img className='bsc-logo' src="{bscLogo}" alt="" />
         <h1>Black Sheep Coffee Bar Recipes</h1>
       </header>
 
       <section>
-        <img className='black-sheep-cover-photo' src="dist/black_sheep_cover.jpg" alt="" />
+        <img className='black-sheep-cover-photo' src="{coverPhoto}" alt="" />
       </section>
 
       {/* Navbar */}
