@@ -19,6 +19,10 @@ function App() {
         <h1>Black Sheep Coffee Bar Recipes</h1>
       </header>
 
+      <section>
+        <img className='black-sheep-cover-photo' src="dist/black_sheep_cover.jpg" alt="" />
+      </section>
+
       {/* Navbar */}
       <Navbar changeSection={changeSection} />
 
