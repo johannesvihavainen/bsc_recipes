@@ -42,7 +42,7 @@ header h1 {
   color: #E9DFB8;
   text-transform: uppercase;
   font-weight: bold;
-  font-size:  1rem;
+  font-size: 1rem;
   height: 40px;
 }
 
@@ -129,11 +129,15 @@ header h1 {
   padding: 10px;
 }
 
+.item-wrapper,
+.drink-title {
+  color: #414042;
+}
+
 .drink-title {
   font-weight: bold;
   text-transform: uppercase;
   background-color: #E9DFB8;
-  color: #213547;
   width: 100%;
 }
 
