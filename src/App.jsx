@@ -14,6 +14,7 @@ function App() {
 
       {/* Header for the website title */}
       <header>
+        <img className='bsc-logo' src="./public/bsc_logo.png" alt="" />
         <h1>Black Sheep Coffee Bar Recipes</h1>
       </header>
 
