@@ -83,6 +83,7 @@ header h1 {
 .search-bar {
   margin: 0;
   padding: 20px;
+  color: #414042;
 }
 
 .search-bar input {
