@@ -1180,7 +1180,6 @@ function App() {
 
             <div className="prepping-guide-container">
               <div className="item-wrapper">
-                <p className="drink-title prepping">waffle packaging guide</p>
                 <img className='packaging-guide' src={packagingGuide1} alt="" />
               </div>
 

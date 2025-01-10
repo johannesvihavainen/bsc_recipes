@@ -13,6 +13,7 @@ header {
   color: #E9DFB8;
   display: flex;
   align-items: center;
+  height: 100px;
 }
 
 header h1 {
@@ -276,7 +277,7 @@ header h1 {
     align-items: center;
   }
 
- 
+
 
 
 

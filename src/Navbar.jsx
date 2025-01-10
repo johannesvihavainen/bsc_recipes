@@ -11,7 +11,7 @@ function Navbar({ changeSection }) {
                 <li onClick={() => changeSection('iced-non-coffee')} className='iced-non-coffee'>Iced Non-Coffee</li>
                 <li onClick={() => changeSection('frappes')} className='frappes'>Frappés</li>
                 <li onClick={() => changeSection('waffles')} className='waffles'>Waffles</li>
-                <li onClick={() => changeSection('prepping-guide')} className='prepping-guide'>Prepping Guide</li>
+                <li onClick={() => changeSection('prepping-guide')} className='prepping-guide'>Prepping Guides</li>
                 <li onClick={() => changeSection('other-food-items')} className='other-food-items'>Sandwiches, Bagels, Muffins, and Smoothie Bowls</li>
 
             </ul>
