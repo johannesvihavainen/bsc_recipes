@@ -126,7 +126,8 @@ header h1 {
 .iced-drinks-container,
 .matcha-drinks-container,
 .smoothie-container,
-.seasonal-drinks-container {
+.seasonal-drinks-container,
+.food-container {
   display: grid;
   gap: 40px;
 }
@@ -192,3 +193,7 @@ header h1 {
   display: flex;
   gap: 50px;
 } */
+
+.item-wrapper ol {
+  padding: 30px;
+}
