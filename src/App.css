@@ -271,13 +271,19 @@ header h1 {
     width: 1000px;
   }
 
-  .recipes-container {
-    justify-content: center;
-    width: 1000px;
-    align-items: center;
+  .recipes-container,
+  .coffee-container,
+  .coffeeless-drinks-container,
+  .iced-drinks-container,
+  .matcha-drinks-container,
+  .smoothie-container,
+  .seasonal-drinks-container,
+  .food-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates 2 equal columns */
+    grid-template-rows: repeat(2, 1fr);   /* Creates 2 equal rows */
+    gap: 10px; /* Optional: Adjust spacing between items */
   }
-
-
 
 
 
