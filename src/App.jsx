@@ -2400,6 +2400,89 @@ function App() {
         </div>
       )}
 
+      {activeSection === 'other-food-items' && (
+        <div className="recipes-container">
+          <div className="prepping-guide-container">
+            <div className="item-wrapper">
+              <p className="drink-title">All Sandwiches & Grilled Cheese</p>
+              <p className='heads-up-title'>All sandwiches are cooked on the 'Breakfast Sandwich' setting. (1 MIN 10SEC AT 525°F)</p>
+              <p className="steps-title">Steps:</p>
+              <ol>
+                <li className="recipe-method">Lay the teflon tray on the paddle.</li>
+                <li className="recipe-method">Unwrap sandwich.</li>
+                <li className="recipe-method">If the item is a 1/2 grilled cheese then cut it in half.</li>
+                <li className="recipe-method">Place onto the teflon tray and into the panasonic.</li>
+                <li className="recipe-method">Select the correct item button using the panasonic.</li>
+                <li className="recipe-method">Remove the sandwich with the paddle.</li>
+                <li className="recipe-method">If the item is not a 1/2 grilled cheese, and is dine in then cut it in half.</li>
+                <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
+                <li className="recipe-method">Serve and enjoy!</li>
+              </ol>
+            </div>
+
+            <div className="item-wrapper">
+              <p className="drink-title">All Muffins</p>
+              <p className='heads-up-title'>All muffins are cooked on the 'Breakfast Sandwich' setting. (1 MIN 10SEC AT 525°F)</p>
+              <p className="steps-title">Steps:</p>
+              <ol>
+                <li className="recipe-method">Lay the teflon tray on the paddle.</li>
+                <li className="recipe-method">Remove the plastic, but keep the muffin in the greaseproof sleeve.</li>
+                <li className="recipe-method">Place onto the teflon tray and into the panasonic.</li>
+                <li className="recipe-method">Select the correct item button using the panasonic.</li>
+                <li className="recipe-method">Remove the muffin with the paddle.</li>
+                <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
+                <li className="recipe-method">Serve and enjoy!</li>
+              </ol>
+            </div>
+
+            <div className="item-wrapper">
+              <p className="drink-title">All Bagels</p>
+              <p className='heads-up-title'>All bagels are cooked on the 'Breakfast Sandwich' setting. (1 MIN 10SEC AT 525°F)</p>
+              <p className="steps-title">Steps:</p>
+              <ol>
+                <li className="recipe-method">Lay the teflon tray on the paddle.</li>
+                <li className="recipe-method">Unwrap the bagel.</li>
+                <li className="recipe-method">Place onto the teflon tray and into the panasonic.</li>
+                <li className="recipe-method">Select the correct item button using the panasonic.</li>
+                <li className="recipe-method">Remove the bagel with the paddle.</li>
+                <li className="recipe-method">If the item is dine in then cut it in half.</li>
+                <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
+                <li className="recipe-method">Serve and enjoy!</li>
+              </ol>
+            </div>
+
+            <div className="item-wrapper">
+              <p className="drink-title">Berry Bliss Smoothie Bowl</p>
+              <p className="steps-title">Steps:</p>
+              <ol>
+                <li className="recipe-method">In a purple jug, pour 150ml of coconut milk.</li>
+                <li className="recipe-method">If protein poweder is requested, use a clear jug.</li>
+                <li className="recipe-method">Add in 1 smoothie pouch.</li>
+                <li className="recipe-method">Blend until smooth on setting 1.</li>
+                <li className="recipe-method">Scoop into a bowl with the spatula.</li>
+                <li className="recipe-method">With an espresso cup, top with granola.</li>
+                <li className="recipe-method">Add any extra toppings.</li>
+                <li className="recipe-method">Serve with napkin and spoon and enjoy!</li>
+              </ol>
+            </div>
+
+            <div className="item-wrapper">
+              <p className="drink-title">Passion Fusion Smoothie Bowl</p>
+              <p className="steps-title">Steps:</p>
+              <ol>
+                <li className="recipe-method">In a purple jug, pour 150ml of coconut milk.</li>
+                <li className="recipe-method">Add in 1 smoothie pouch.</li>
+                <li className="recipe-method">Blend until smooth on setting 1.</li>
+                <li className="recipe-method">Scoop into a bowl with the spatula.</li>
+                <li className="recipe-method">With an espresso cup, top with granola.</li>
+                <li className="recipe-method">Add any extra toppings.</li>
+                <li className="recipe-method">Serve with napkin and spoon and enjoy!</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      )}
+
 
     </div>
   )

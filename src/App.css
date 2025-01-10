@@ -172,11 +172,16 @@ margin-top: 40px;
 }
 
 .ingredients-title,
-.steps-title {
+.steps-title,
+.heads-up-title {
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: underline;
   margin-top: 15px;
+}
+
+.heads-up-title {
+  color: red;
 }
 
 .recipe-method {
