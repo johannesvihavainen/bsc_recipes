@@ -32,7 +32,7 @@ function App() {
       <div class="search-bar">
         <SearchFunctionality />
         <p>Need to search for something specific?</p>
-        <input className="search-box" type="text" id="myInput" placeholder="Search for what you need.." />
+        <input className="search-box" type="text" id="myInput" placeholder="Looking for a recipe or prep guide? Start typing..." />
       </div>
 
       {/* Conditional rendering for sections */}
