@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css'
 import Navbar from './Navbar';
 import SearchFunctionality from './SearchFunctionality';
+import ResetSearchBarInput from './ResetSearchBarInput';
 import bscLogo from "./assets/bsc_logo.png";
 import bscCover from "./assets/bsc_cover_2.jpg";
 import packagingGuide1 from "./assets/packaging_guide_1.jpg";
@@ -36,6 +37,7 @@ function App() {
       {/* Search functionality for finding specific recipes or prepping guides */}
       <div class="search-bar">
         <SearchFunctionality />
+        <ResetSearchBarInput />
         <p>Need to search for something specific?</p>
         <input className="search-box" type="text" id="myInput" placeholder="Looking for a recipe or prep guide? Start typing..." />
       </div>
@@ -1254,7 +1256,7 @@ function App() {
                 <p className="steps-title">Steps:</p>
                 <ol>
                   <li className="recipe-method">In a purple jug, pour 150ml of coconut milk.</li>
-                  <li className="recipe-method">If protein poweder is requested, use a clear jug.</li>
+                  <li className="recipe-method">If protein powder is requested, use a clear jug.</li>
                   <li className="recipe-method">Add in 1 smoothie pouch.</li>
                   <li className="recipe-method">Blend until smooth on setting 1.</li>
                   <li className="recipe-method">Scoop into a bowl with the spatula.</li>
