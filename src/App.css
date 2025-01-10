@@ -88,6 +88,10 @@ header h1 {
   grid-area: 3 / 3 / 4 / 4;
 }
 
+.other-food-items {
+  grid-area: 4 / 1 / 5 / 4;
+}
+
 
 
 .search-bar {
@@ -136,8 +140,9 @@ header h1 {
 .iced-drinks-container,
 .matcha-drinks-container,
 .smoothie-container,
-.seasonal-drinks-container {
-  margin-top: 40px;
+.seasonal-drinks-container,
+{
+margin-top: 40px;
 }
 
 .item-wrapper {
@@ -196,4 +201,16 @@ header h1 {
 
 .item-wrapper ol {
   padding: 30px;
+}
+
+.packaging-guide,
+.prepping-guide-cheese,
+.smoothie-bowl-topping-formulas {
+  width: 100%;
+}
+
+.prepping-guide-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
