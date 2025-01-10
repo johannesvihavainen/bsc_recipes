@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
   padding: 0;
   margin: 0;
   background-color: #E9DFB8;
+  font-family: 'Open Sans', sans-serif;
+  /* for general content */
 }
 
 header {
@@ -16,6 +20,7 @@ header h1 {
   text-align: center;
   text-transform: uppercase;
   padding: 20px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .bsc-logo {
@@ -34,6 +39,8 @@ header h1 {
   list-style: none;
   margin: 0;
   padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
 
 .navbar ul li {
@@ -98,6 +105,7 @@ header h1 {
 .search-bar p {
   font-weight: bold;
   font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .recipes-container {
@@ -133,6 +141,14 @@ header h1 {
 .item-wrapper,
 .drink-title {
   color: #414042;
+}
+
+.drink-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .drink-title {
