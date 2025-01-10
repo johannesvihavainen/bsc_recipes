@@ -3,7 +3,7 @@ import './App.css'
 import Navbar from './Navbar';
 import SearchFunctionality from './SearchFunctionality';
 import bscLogo from "./assets/bsc_logo.png";
-import bscCover from "./assets/black_sheep_cover.jpg";
+import bscCover from "./assets/bsc_cover_2.jpg";
 import packagingGuide1 from "./assets/packaging_guide_1.jpg";
 import packagingGuide2 from "./assets/packaging_guide_2.png";
 import packagingGuide3 from "./assets/packaging_guide_3.png";

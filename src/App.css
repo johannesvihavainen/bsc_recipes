@@ -228,3 +228,56 @@ header h1 {
 .prepping {
   display: none;
 }
+
+
+
+
+
+
+@media (min-width: 1440px) {
+  header {
+    justify-content: center;
+  }
+
+  .black-sheep-cover-photo {
+    height: 980px;
+  }
+
+  .navbar ul {
+    width: 1000px;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-bar input {
+    width: 1000px;
+  }
+
+  .recipes-container {
+    justify-content: center;
+    width: 1000px;
+    align-items: center;
+  }
+
+ 
+
+
+
+}
