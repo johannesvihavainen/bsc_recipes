@@ -15,12 +15,12 @@ function App() {
 
       {/* Header for the website title */}
       <header>
-        <img className='bsc-logo' src="dist/bsc_logo.png" alt="" />
+        <img className='bsc-logo' src="public/bsc_logo.png" alt="" />
         <h1>Black Sheep Coffee Bar Recipes</h1>
       </header>
 
       <section>
-        <img className='black-sheep-cover-photo' src="dist/black_sheep_cover.jpg" alt="" />
+        <img className='black-sheep-cover-photo' src="public/black_sheep_cover.jpg" alt="" />
       </section>
 
       {/* Navbar */}
