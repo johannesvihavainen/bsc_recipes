@@ -981,204 +981,206 @@ function App() {
                 <p className="recipe-method">Use a dome lid.</p>
               </div>
 
-              <div className="food-container">
-                <div className="item-wrapper">
-                  <p className="drink-title">Plain Waffle</p>
-                  <p className="ingredients-title">Ingredients:</p>
-                  <p>150g of waffle dough</p>
-                  <p className="steps-title">Steps:</p>
-                  <ol>
-                    <li className="recipe-method">Quickly pour the mixture onto the waffle iron.</li>
-                    <li className="recipe-method">Use a spatula to spread the dough evenly.</li>
-                    <li className="recipe-method">Set a timer for 2 minutes and 30 seconds.</li>
-                    <li className="recipe-method">Remove the waffle with tongs once it's done cooking.</li>
-                    <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
-                    <li className="recipe-method">Serve and enjoy!</li>
-                  </ol>
-                </div>
+            </div>
 
-                <div className="item-wrapper">
-                  <p className="drink-title">Matcha Waffle</p>
-                  <p className="ingredients-title">Ingredients:</p>
-                  <p>150g of waffle dough</p>
-                  <p className="steps-title">Steps:</p>
-                  <ol>
-                    <li className="recipe-method">Mix matcha into dough (2G matcha 1/2 teaspoon).</li>
-                    <li className="recipe-method">Quickly pour the mixture onto the waffle iron.</li>
-                    <li className="recipe-method">Use a spatula to spread the dough evenly.</li>
-                    <li className="recipe-method">Set a timer for 2 minutes and 30 seconds.</li>
-                    <li className="recipe-method">Remove the waffle with tongs once it's done cooking.</li>
-                    <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
-                    <li className="recipe-method">Serve and enjoy!</li>
-                  </ol>
-                </div>
+            <div className="food-container">
+              <div className="item-wrapper">
+                <p className="drink-title">Plain Waffle</p>
+                <p className="ingredients-title">Ingredients:</p>
+                <p>150g of waffle dough</p>
+                <p className="steps-title">Steps:</p>
+                <ol>
+                  <li className="recipe-method">Quickly pour the mixture onto the waffle iron.</li>
+                  <li className="recipe-method">Use a spatula to spread the dough evenly.</li>
+                  <li className="recipe-method">Set a timer for 2 minutes and 30 seconds.</li>
+                  <li className="recipe-method">Remove the waffle with tongs once it's done cooking.</li>
+                  <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
+                  <li className="recipe-method">Serve and enjoy!</li>
+                </ol>
+              </div>
 
-                <div className="item-wrapper">
-                  <p className="drink-title">Nutella Waffle</p>
-                  <p className="ingredients-title">Ingredients:</p>
-                  <p>150g of waffle dough</p>
-                  <p className="steps-title">Steps:</p>
-                  <ol>
-                    <li className="recipe-method">Mix matcha into dough (2G matcha 1/2 teaspoon).</li>
-                    <li className="recipe-method">Quickly pour the mixture onto the waffle iron.</li>
-                    <li className="recipe-method">Use a spatula to spread the dough evenly.</li>
-                    <li className="recipe-method">Set a timer for 2 minutes and 30 seconds.</li>
-                    <li className="recipe-method">Remove the waffle with tongs once it's done cooking.</li>
-                    <li className="recipe-method">Add 2 level scoops of nutella then spread it.</li>
-                    <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
-                    <li className="recipe-method">Serve and enjoy!</li>
-                  </ol>
-                </div>
+              <div className="item-wrapper">
+                <p className="drink-title">Matcha Waffle</p>
+                <p className="ingredients-title">Ingredients:</p>
+                <p>150g of waffle dough</p>
+                <p className="steps-title">Steps:</p>
+                <ol>
+                  <li className="recipe-method">Mix matcha into dough (2G matcha 1/2 teaspoon).</li>
+                  <li className="recipe-method">Quickly pour the mixture onto the waffle iron.</li>
+                  <li className="recipe-method">Use a spatula to spread the dough evenly.</li>
+                  <li className="recipe-method">Set a timer for 2 minutes and 30 seconds.</li>
+                  <li className="recipe-method">Remove the waffle with tongs once it's done cooking.</li>
+                  <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
+                  <li className="recipe-method">Serve and enjoy!</li>
+                </ol>
+              </div>
 
-                <div className="item-wrapper">
-                  <p className="drink-title">Nutella & Strawberry Waffle</p>
-                  <p className="ingredients-title">Ingredients:</p>
-                  <p>150g of waffle dough</p>
-                  <p className="steps-title">Steps:</p>
-                  <ol>
-                    <li className="recipe-method">Mix matcha into dough (2G matcha 1/2 teaspoon).</li>
-                    <li className="recipe-method">Quickly pour the mixture onto the waffle iron.</li>
-                    <li className="recipe-method">Use a spatula to spread the dough evenly.</li>
-                    <li className="recipe-method">Set a timer for 2 minutes and 30 seconds.</li>
-                    <li className="recipe-method">Remove the waffle with tongs once it's done cooking.</li>
-                    <li className="recipe-method">Add 1 level scoop of nutella then spread it.</li>
-                    <li className="recipe-method">With a black knife, chop 1 large strawberry.</li>
-                    <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
-                    <li className="recipe-method">Serve and enjoy!</li>
-                  </ol>
-                </div>
+              <div className="item-wrapper">
+                <p className="drink-title">Nutella Waffle</p>
+                <p className="ingredients-title">Ingredients:</p>
+                <p>150g of waffle dough</p>
+                <p className="steps-title">Steps:</p>
+                <ol>
+                  <li className="recipe-method">Mix matcha into dough (2G matcha 1/2 teaspoon).</li>
+                  <li className="recipe-method">Quickly pour the mixture onto the waffle iron.</li>
+                  <li className="recipe-method">Use a spatula to spread the dough evenly.</li>
+                  <li className="recipe-method">Set a timer for 2 minutes and 30 seconds.</li>
+                  <li className="recipe-method">Remove the waffle with tongs once it's done cooking.</li>
+                  <li className="recipe-method">Add 2 level scoops of nutella then spread it.</li>
+                  <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
+                  <li className="recipe-method">Serve and enjoy!</li>
+                </ol>
+              </div>
 
-                <div className="item-wrapper">
-                  <p className="drink-title">Nutella & Banana Waffle</p>
-                  <p className="ingredients-title">Ingredients:</p>
-                  <p>150g of waffle dough</p>
-                  <p className="steps-title">Steps:</p>
-                  <ol>
-                    <li className="recipe-method">Mix matcha into dough (2G matcha 1/2 teaspoon).</li>
-                    <li className="recipe-method">Quickly pour the mixture onto the waffle iron.</li>
-                    <li className="recipe-method">Use a spatula to spread the dough evenly.</li>
-                    <li className="recipe-method">Set a timer for 2 minutes and 30 seconds.</li>
-                    <li className="recipe-method">Remove the waffle with tongs once it's done cooking.</li>
-                    <li className="recipe-method">Add 1 level scoop of nutella then spread it.</li>
-                    <li className="recipe-method">With a black knife, slice 1/2 of a banana.</li>
-                    <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
-                    <li className="recipe-method">Serve and enjoy!</li>
-                  </ol>
-                </div>
+              <div className="item-wrapper">
+                <p className="drink-title">Nutella & Strawberry Waffle</p>
+                <p className="ingredients-title">Ingredients:</p>
+                <p>150g of waffle dough</p>
+                <p className="steps-title">Steps:</p>
+                <ol>
+                  <li className="recipe-method">Mix matcha into dough (2G matcha 1/2 teaspoon).</li>
+                  <li className="recipe-method">Quickly pour the mixture onto the waffle iron.</li>
+                  <li className="recipe-method">Use a spatula to spread the dough evenly.</li>
+                  <li className="recipe-method">Set a timer for 2 minutes and 30 seconds.</li>
+                  <li className="recipe-method">Remove the waffle with tongs once it's done cooking.</li>
+                  <li className="recipe-method">Add 1 level scoop of nutella then spread it.</li>
+                  <li className="recipe-method">With a black knife, chop 1 large strawberry.</li>
+                  <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
+                  <li className="recipe-method">Serve and enjoy!</li>
+                </ol>
+              </div>
 
-                <div className="item-wrapper">
-                  <p className="drink-title">Peanut Butter & Banana Waffle</p>
-                  <p className="ingredients-title">Ingredients:</p>
-                  <p>150g of waffle dough</p>
-                  <p className="steps-title">Steps:</p>
-                  <ol>
-                    <li className="recipe-method">Mix matcha into dough (2G matcha 1/2 teaspoon).</li>
-                    <li className="recipe-method">Quickly pour the mixture onto the waffle iron.</li>
-                    <li className="recipe-method">Use a spatula to spread the dough evenly.</li>
-                    <li className="recipe-method">Set a timer for 2 minutes and 30 seconds.</li>
-                    <li className="recipe-method">Remove the waffle with tongs once it's done cooking.</li>
-                    <li className="recipe-method">Add 1 level scoop of peanut butter then spread it.</li>
-                    <li className="recipe-method">With a black knife, slice 1/2 of a banana.</li>
-                    <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
-                    <li className="recipe-method">Serve and enjoy!</li>
-                  </ol>
-                </div>
+              <div className="item-wrapper">
+                <p className="drink-title">Nutella & Banana Waffle</p>
+                <p className="ingredients-title">Ingredients:</p>
+                <p>150g of waffle dough</p>
+                <p className="steps-title">Steps:</p>
+                <ol>
+                  <li className="recipe-method">Mix matcha into dough (2G matcha 1/2 teaspoon).</li>
+                  <li className="recipe-method">Quickly pour the mixture onto the waffle iron.</li>
+                  <li className="recipe-method">Use a spatula to spread the dough evenly.</li>
+                  <li className="recipe-method">Set a timer for 2 minutes and 30 seconds.</li>
+                  <li className="recipe-method">Remove the waffle with tongs once it's done cooking.</li>
+                  <li className="recipe-method">Add 1 level scoop of nutella then spread it.</li>
+                  <li className="recipe-method">With a black knife, slice 1/2 of a banana.</li>
+                  <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
+                  <li className="recipe-method">Serve and enjoy!</li>
+                </ol>
+              </div>
 
-                <div className="item-wrapper">
-                  <p className="drink-title">Peanut Butter & Jam Waffle</p>
-                  <p className="ingredients-title">Ingredients:</p>
-                  <p>150g of waffle dough</p>
-                  <p className="steps-title">Steps:</p>
-                  <ol>
-                    <li className="recipe-method">Mix matcha into dough (2G matcha 1/2 teaspoon).</li>
-                    <li className="recipe-method">Quickly pour the mixture onto the waffle iron.</li>
-                    <li className="recipe-method">Use a spatula to spread the dough evenly.</li>
-                    <li className="recipe-method">Set a timer for 2 minutes and 30 seconds.</li>
-                    <li className="recipe-method">Remove the waffle with tongs once it's done cooking.</li>
-                    <li className="recipe-method">Spread 2 scoops of peanut butter over one half.</li>
-                    <li className="recipe-method">Add 1 level scoop of berry compot over the peanut butter.</li>
-                    <li className="recipe-method">With a black knife, slice 1/2 of a banana.</li>
-                    <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
-                    <li className="recipe-method">Serve and enjoy!</li>
-                  </ol>
-                </div>
+              <div className="item-wrapper">
+                <p className="drink-title">Peanut Butter & Banana Waffle</p>
+                <p className="ingredients-title">Ingredients:</p>
+                <p>150g of waffle dough</p>
+                <p className="steps-title">Steps:</p>
+                <ol>
+                  <li className="recipe-method">Mix matcha into dough (2G matcha 1/2 teaspoon).</li>
+                  <li className="recipe-method">Quickly pour the mixture onto the waffle iron.</li>
+                  <li className="recipe-method">Use a spatula to spread the dough evenly.</li>
+                  <li className="recipe-method">Set a timer for 2 minutes and 30 seconds.</li>
+                  <li className="recipe-method">Remove the waffle with tongs once it's done cooking.</li>
+                  <li className="recipe-method">Add 1 level scoop of peanut butter then spread it.</li>
+                  <li className="recipe-method">With a black knife, slice 1/2 of a banana.</li>
+                  <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
+                  <li className="recipe-method">Serve and enjoy!</li>
+                </ol>
+              </div>
 
-                <div className="item-wrapper">
-                  <p className="drink-title">Norwegian Classic Waffle</p>
-                  <p className="ingredients-title">Ingredients:</p>
-                  <p>150g of waffle dough</p>
-                  <p className="steps-title">Steps:</p>
-                  <ol>
-                    <li className="recipe-method">Mix matcha into dough (2G matcha 1/2 teaspoon).</li>
-                    <li className="recipe-method">Quickly pour the mixture onto the waffle iron.</li>
-                    <li className="recipe-method">Use a spatula to spread the dough evenly.</li>
-                    <li className="recipe-method">Set a timer for 2 minutes and 30 seconds.</li>
-                    <li className="recipe-method">Remove the waffle with tongs once it's done cooking.</li>
-                    <li className="recipe-method">Spread 2 scoops of peanut butter over one half.</li>
-                    <li className="recipe-method">Add 1 level scoop of berry compot then spread it.</li>
-                    <li className="recipe-method">Add 2 slices of brown cheese over the berry compot.</li>
-                    <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
-                    <li className="recipe-method">Serve and enjoy!</li>
-                  </ol>
-                </div>
+              <div className="item-wrapper">
+                <p className="drink-title">Peanut Butter & Jam Waffle</p>
+                <p className="ingredients-title">Ingredients:</p>
+                <p>150g of waffle dough</p>
+                <p className="steps-title">Steps:</p>
+                <ol>
+                  <li className="recipe-method">Mix matcha into dough (2G matcha 1/2 teaspoon).</li>
+                  <li className="recipe-method">Quickly pour the mixture onto the waffle iron.</li>
+                  <li className="recipe-method">Use a spatula to spread the dough evenly.</li>
+                  <li className="recipe-method">Set a timer for 2 minutes and 30 seconds.</li>
+                  <li className="recipe-method">Remove the waffle with tongs once it's done cooking.</li>
+                  <li className="recipe-method">Spread 2 scoops of peanut butter over one half.</li>
+                  <li className="recipe-method">Add 1 level scoop of berry compot over the peanut butter.</li>
+                  <li className="recipe-method">With a black knife, slice 1/2 of a banana.</li>
+                  <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
+                  <li className="recipe-method">Serve and enjoy!</li>
+                </ol>
+              </div>
 
-                <div className="item-wrapper">
-                  <p className="drink-title">Strawberries & Cream Waffle</p>
-                  <p className="ingredients-title">Ingredients:</p>
-                  <p>150g of waffle dough</p>
-                  <p className="steps-title">Steps:</p>
-                  <ol>
-                    <li className="recipe-method">Mix matcha into dough (2G matcha 1/2 teaspoon).</li>
-                    <li className="recipe-method">Quickly pour the mixture onto the waffle iron.</li>
-                    <li className="recipe-method">Use a spatula to spread the dough evenly.</li>
-                    <li className="recipe-method">Set a timer for 2 minutes and 30 seconds.</li>
-                    <li className="recipe-method">Remove the waffle with tongs once it's done cooking.</li>
-                    <li className="recipe-method">Add 1 level scoop of berry compot then spread it.</li>
-                    <li className="recipe-method">With a black knife, chop 1 large strawberry, and place over the compot.</li>
-                    <li className="recipe-method">Spray whipped cream along half of the waffle.</li>
-                    <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
-                    <li className="recipe-method">Serve and enjoy!</li>
-                  </ol>
-                </div>
+              <div className="item-wrapper">
+                <p className="drink-title">Norwegian Classic Waffle</p>
+                <p className="ingredients-title">Ingredients:</p>
+                <p>150g of waffle dough</p>
+                <p className="steps-title">Steps:</p>
+                <ol>
+                  <li className="recipe-method">Mix matcha into dough (2G matcha 1/2 teaspoon).</li>
+                  <li className="recipe-method">Quickly pour the mixture onto the waffle iron.</li>
+                  <li className="recipe-method">Use a spatula to spread the dough evenly.</li>
+                  <li className="recipe-method">Set a timer for 2 minutes and 30 seconds.</li>
+                  <li className="recipe-method">Remove the waffle with tongs once it's done cooking.</li>
+                  <li className="recipe-method">Spread 2 scoops of peanut butter over one half.</li>
+                  <li className="recipe-method">Add 1 level scoop of berry compot then spread it.</li>
+                  <li className="recipe-method">Add 2 slices of brown cheese over the berry compot.</li>
+                  <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
+                  <li className="recipe-method">Serve and enjoy!</li>
+                </ol>
+              </div>
 
-                <div className="item-wrapper">
-                  <p className="drink-title">Banoffee Waffle</p>
-                  <p className="ingredients-title">Ingredients:</p>
-                  <p>150g of waffle dough</p>
-                  <p className="steps-title">Steps:</p>
-                  <ol>
-                    <li className="recipe-method">Mix matcha into dough (2G matcha 1/2 teaspoon).</li>
-                    <li className="recipe-method">Quickly pour the mixture onto the waffle iron.</li>
-                    <li className="recipe-method">Use a spatula to spread the dough evenly.</li>
-                    <li className="recipe-method">Set a timer for 2 minutes and 30 seconds.</li>
-                    <li className="recipe-method">Remove the waffle with tongs once it's done cooking.</li>
-                    <li className="recipe-method">Add 2 level scoops of biscoff then spread it.</li>
-                    <li className="recipe-method">With a black knife, chop 1/2 of a banana, and place over the biscoff.</li>
-                    <li className="recipe-method">Spray whipped cream along half of the waffle.</li>
-                    <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
-                    <li className="recipe-method">Serve and enjoy!</li>
-                  </ol>
-                </div>
+              <div className="item-wrapper">
+                <p className="drink-title">Strawberries & Cream Waffle</p>
+                <p className="ingredients-title">Ingredients:</p>
+                <p>150g of waffle dough</p>
+                <p className="steps-title">Steps:</p>
+                <ol>
+                  <li className="recipe-method">Mix matcha into dough (2G matcha 1/2 teaspoon).</li>
+                  <li className="recipe-method">Quickly pour the mixture onto the waffle iron.</li>
+                  <li className="recipe-method">Use a spatula to spread the dough evenly.</li>
+                  <li className="recipe-method">Set a timer for 2 minutes and 30 seconds.</li>
+                  <li className="recipe-method">Remove the waffle with tongs once it's done cooking.</li>
+                  <li className="recipe-method">Add 1 level scoop of berry compot then spread it.</li>
+                  <li className="recipe-method">With a black knife, chop 1 large strawberry, and place over the compot.</li>
+                  <li className="recipe-method">Spray whipped cream along half of the waffle.</li>
+                  <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
+                  <li className="recipe-method">Serve and enjoy!</li>
+                </ol>
+              </div>
 
-                <div className="item-wrapper">
-                  <p className="drink-title">Biscoff Waffle</p>
-                  <p className="ingredients-title">Ingredients:</p>
-                  <p>150g of waffle dough</p>
-                  <p className="steps-title">Steps:</p>
-                  <ol>
-                    <li className="recipe-method">Mix matcha into dough (2G matcha 1/2 teaspoon).</li>
-                    <li className="recipe-method">Quickly pour the mixture onto the waffle iron.</li>
-                    <li className="recipe-method">Use a spatula to spread the dough evenly.</li>
-                    <li className="recipe-method">Set a timer for 2 minutes and 30 seconds.</li>
-                    <li className="recipe-method">Remove the waffle with tongs once it's done cooking.</li>
-                    <li className="recipe-method">Add 2 level scoops of biscoff then spread it.</li>
-                    <li className="recipe-method">Add 2 scoops of biscuit crumbs over the biscoff.</li>
-                    <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
-                    <li className="recipe-method">Serve and enjoy!</li>
-                  </ol>
-                </div>
+              <div className="item-wrapper">
+                <p className="drink-title">Banoffee Waffle</p>
+                <p className="ingredients-title">Ingredients:</p>
+                <p>150g of waffle dough</p>
+                <p className="steps-title">Steps:</p>
+                <ol>
+                  <li className="recipe-method">Mix matcha into dough (2G matcha 1/2 teaspoon).</li>
+                  <li className="recipe-method">Quickly pour the mixture onto the waffle iron.</li>
+                  <li className="recipe-method">Use a spatula to spread the dough evenly.</li>
+                  <li className="recipe-method">Set a timer for 2 minutes and 30 seconds.</li>
+                  <li className="recipe-method">Remove the waffle with tongs once it's done cooking.</li>
+                  <li className="recipe-method">Add 2 level scoops of biscoff then spread it.</li>
+                  <li className="recipe-method">With a black knife, chop 1/2 of a banana, and place over the biscoff.</li>
+                  <li className="recipe-method">Spray whipped cream along half of the waffle.</li>
+                  <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
+                  <li className="recipe-method">Serve and enjoy!</li>
+                </ol>
+              </div>
+
+              <div className="item-wrapper">
+                <p className="drink-title">Biscoff Waffle</p>
+                <p className="ingredients-title">Ingredients:</p>
+                <p>150g of waffle dough</p>
+                <p className="steps-title">Steps:</p>
+                <ol>
+                  <li className="recipe-method">Mix matcha into dough (2G matcha 1/2 teaspoon).</li>
+                  <li className="recipe-method">Quickly pour the mixture onto the waffle iron.</li>
+                  <li className="recipe-method">Use a spatula to spread the dough evenly.</li>
+                  <li className="recipe-method">Set a timer for 2 minutes and 30 seconds.</li>
+                  <li className="recipe-method">Remove the waffle with tongs once it's done cooking.</li>
+                  <li className="recipe-method">Add 2 level scoops of biscoff then spread it.</li>
+                  <li className="recipe-method">Add 2 scoops of biscuit crumbs over the biscoff.</li>
+                  <li className="recipe-method">Refer to the packaging guide for specific instructions.</li>
+                  <li className="recipe-method">Serve and enjoy!</li>
+                </ol>
               </div>
             </div>
+
 
             <div className="prepping-guide-container">
               <div className="item-wrapper">
@@ -1202,7 +1204,7 @@ function App() {
               </div>
             </div>
 
-            <div className="prepping-guide-container">
+            <div className="prepping-guide-container prepping-guide-container-2">
               <div className="item-wrapper">
                 <p className="drink-title">All Sandwiches & Grilled Cheese</p>
                 <p className='heads-up-title'>All sandwiches are cooked on the 'Breakfast Sandwich' setting. (1 MIN 10SEC AT 525°F)</p>

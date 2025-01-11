@@ -231,11 +231,106 @@ header h1 {
 }
 
 
+/* Desktop: 3 or more columns */
+@media (min-width: 1024px) {
+  header {
+    justify-content: center;
+  }
+
+  .black-sheep-cover-photo {
+    height: 500px;
+  }
+
+  .navbar ul {
+    width: 750px;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  #home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .search-bar input {
+    width: 750px;
+  }
+
+  .search-bar p {
+    font-size: 2rem;
+  }
+
+  .recipes-container {
+    margin-top: 100px;
+  }
+
+  .coffee-container,
+  .coffeeless-drinks-container,
+  .matcha-drinks-container,
+  .smoothie-container,
+  .prepping-guide-container {
+    display: grid;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 50px;
+    padding-right: 50px;
+    /* Creates 2 equal columns */
+    grid-template-rows: repeat(2, 1fr);
+    /* Creates 2 equal rows */
+    gap: 50px;
+    /* Optional: Adjust spacing between items */
+  }
+
+
+  .food-container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+
+  .coffeeless-drinks-container,
+  .matcha-drinks-container,
+  .smoothie-container,
+  .food-container,
+  .prepping-guide-container {
+    margin-top: 200px;
+  }
+
+  .prepping-guide-container-2 {
+    margin-top: 100px;
+  }
+
+  .food-container {
+    margin-top: -200px
+  }
+}
 
 
 
-
-@media (min-width: 1440px) {
+@media (min-width: 2500px) {
   header {
     justify-content: center;
   }
@@ -252,6 +347,7 @@ header h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 100px;
   }
 
   #home {
@@ -265,26 +361,68 @@ header h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 100px;
   }
 
   .search-bar input {
     width: 1000px;
   }
 
-  .recipes-container,
+  .search-bar p {
+    font-size: 2rem;
+  }
+
+  .recipes-container {
+    margin-top: 100px;
+  }
+
   .coffee-container,
   .coffeeless-drinks-container,
-  .iced-drinks-container,
   .matcha-drinks-container,
   .smoothie-container,
-  .seasonal-drinks-container,
-  .food-container {
+  .prepping-guide-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Creates 2 equal columns */
-    grid-template-rows: repeat(2, 1fr);   /* Creates 2 equal rows */
-    gap: 10px; /* Optional: Adjust spacing between items */
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: repeat(5, 1fr);
+    padding-left: 300px;
+    padding-right: 300px;
+    /* Creates 2 equal columns */
+    grid-template-rows: repeat(2, 1fr);
+    /* Creates 2 equal rows */
+    gap: 50px;
+    /* Optional: Adjust spacing between items */
   }
 
 
+  .food-container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+
+
+  .coffeeless-drinks-container,
+  .matcha-drinks-container,
+  .smoothie-container,
+  .food-container,
+  .prepping-guide-container {
+    margin-top: 200px;
+  }
+
+  .prepping-guide-container-2 {
+    margin-top: -600px;
+  }
+
+  .food-container {
+    margin-top: -200px
+  }
 
 }
